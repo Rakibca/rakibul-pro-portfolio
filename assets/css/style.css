@@ -1,0 +1,225 @@
+:root {
+  --middle-blue: #3BB8A3;
+  --cadet-blue: #2F9382;
+  --blue-munsell: #236E62;
+  --steel-teal: #184941;
+}
+
+header {
+  background-color: var(--middle-blue);
+  color: blue;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.avatar {
+  display: inline;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.bigHeading {
+  display: inline;
+  font-size: 60px;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 5px #db5f79;
+}
+
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-left: 25px;
+}
+
+.navigation {
+  width: 150px;
+  height: 40px;
+  background-color: #db5f79;
+  border: 2px solid #555555;
+  border-radius: 10px;
+  color: blue;
+  font-variant: small-caps;
+}
+
+.navigation:hover {
+  background-color: yellow;
+}
+
+.navigation:active {
+  text-shadow: 2px 2px 5px #db5f79;
+}
+
+main {
+  background-color: var(--blue-munsell);
+}
+
+#aboutme {
+  background-color: var(--cadet-blue);
+  margin: auto;
+  padding: 5px;
+  color: black;
+}
+
+h3 {
+  font-size: 30px;
+  font-variant: small-caps;
+  text-align: center;
+  margin: auto;
+  padding: 30px 30px;
+  text-shadow: 2px 2px 5px #db5f79;
+}
+
+.aboutmyself {
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.button {
+  margin: 15px 10px;
+  padding: 2px 32px;
+  width: 575px;
+  height: 300px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 5px solid #555555;
+  border-radius: 36px;
+  background-image: linear-gradient(to bottom, yellow, rgba(0, 0, 255, 0.5));
+  font-variant: small-caps;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.button:active {
+  background-color: green;
+  box-shadow: 0 5px #555555;
+  transform: translateY(20px);
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+
+.technology {
+  text-align: center;
+  color: green;
+}
+
+.img1:hover {
+  position: relative;
+  width: 125px;
+  height: 175px;
+  display: inline;
+  z-index: 999;
+}
+
+.contactinfo {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 10px;
+  font-variant: small-caps;
+  color: blue;
+}
+
+footer {
+  background-color: var(--steel-teal);
+  text-align: center;
+  padding: 20px 20px;
+  font-weight: bolder;
+}
+
+/* On screens that are 992px or less*/
+@media screen and (max-width: 992px) {
+  .button1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .button2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .button3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .button4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .button5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .button5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* On screens that are 768px or less*/
+@media screen and (max-width: 768px) {
+  .button1 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+
+  .button2 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+
+  .button3 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+
+  .button4 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+
+  .button5 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+
+  .button6 {
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+}
