@@ -86,14 +86,17 @@ h3 {
 
 .aboutmyself {
   font-size: 20px;
-  text-align: left;
-  padding: 20px 10px;
+  font-variant: small-caps;
+  text-align: center;
+  padding: 10px 10px 25px 10px;
+  text-shadow: 2px 2px 5px #db5f79;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -156,6 +159,7 @@ footer {
   text-align: center;
   padding: 20px 20px;
   font-weight: bolder;
+  font-variant: small-caps;
 }
 
 /* On screens that are 992px or less*/
@@ -176,11 +180,6 @@ footer {
   }
 
   .button4 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .button5 {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -214,11 +213,6 @@ footer {
   }
 
   .button5 {
-    flex: 0 0 66.67%;
-    max-width: 66.67%;
-  }
-
-  .button6 {
     flex: 0 0 66.67%;
     max-width: 66.67%;
   }
