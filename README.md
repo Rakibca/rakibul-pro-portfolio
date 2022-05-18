@@ -16,7 +16,7 @@ Rakibul's Professional Portfolio website uses these technologies to work properl
 
 This website was coded using the the Acceptance Criteria mentioned below:
 - Users are presented with the developer's name, avatar, and links to sections about them, their work, and how to contact them.
-- Clicking one of the links in the navigation bar leads to the corresponding section.
+- Clicking one of the links in the navigation bar leads to the corresponding sections.
 - Clicking on the link to the section about their work leads to a section with titled images of all the developer's applications.
 - When clicking on developer's first application, it's title image gets larger in size than the others images.
 - When clicking on the application image, users will be able to view the deployed website on GitHub.
