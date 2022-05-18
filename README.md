@@ -24,7 +24,7 @@ This website was coded using the the Acceptance Criteria mentioned below:
 - More application links will be added to this webpage in the near future.
 
 ### **Deployed website link:**
-https://rakibca.github.io/rakibul-pro-portfolio.github.io
+https://rakibca.github.io/rakibul-pro-portfolio/
 
 
 ### **Credits:**
