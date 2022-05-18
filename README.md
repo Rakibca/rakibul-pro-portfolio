@@ -1,33 +1,30 @@
-# **©Horiseon**
-## Company page for ©Horiseon Social Solution Services, Inc.
+# **Rakibul's Professional Portfolio**
+## Personal webpage for my portfolio.
 
 ![alt text](assets/images/screenshot.png)
 
+
 ### **Project Description:**
-The code for this marketing agency (©Horiseon) website was refactored so that it will be easy for another developer to understand this code and make changes if required.
+Created this portfolio website showcasing my work to potential employers.
+NOTE: This site is customized to be viewed on mobile devices, Chrome & Edge browsers.
 
 
 ### **Technolgies & Acceptance Criteria:**
-The ©Horiseon website uses these technologies to work properly:
+Rakibul's Professional Portfolio website uses these technologies to work properly:
 - [HTML] - HyperText Markup Language.
 - [CSS] - Cascading Style Sheets used as the style sheet language.
 
-This website was improved using the the Acceptance Criteria mentioned below:
-- Semantic HTML elements was used.
-- Structure of the HTML elements follow a logical structure independent of styling and positioning.
-- All image elements now have accessible alt attributes.
-- All heading attributes fall in sequential order.
-- The title element shows a concise and descriptive title.
-- All website links now function correctly.
-- All CSS selectors and properties were consolidated and organized to follow a semantic structure.
-- CSS file is now properly commented.
-- Application was deployed at live URL.
-- Application loads with no errors.
-- Application GitHub URL was submitted.
-- GitHub repository now contains the application code.
+This website was coded using the the Acceptance Criteria mentioned below:
+- Users are presented with the developer's name, avatar, and links to sections about them, their work, and how to contact them.
+- Clicking one of the links in the navigation bar leads to the corresponding section.
+- Clicking on the link to the section about their work leads to a section with titled images of all the developer's applications.
+- When clicking on developer's first application, it's title image gets larger in size than the others images.
+- When clicking on the application image, users will be able to view the deployed website on GitHub.
+- This website uses responsive layout when viewed on large screens and mobile devices.
+- More application links will be added to this webpage in the near future.
 
 ### **Deployed website link:**
-https://rakibca.github.io/horiseon.github.io
+https://rakibca.github.io/rakibul-pro-portfolio.github.io
 
 
 ### **Credits:**
